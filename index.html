@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Synergy Group – E3 Framework</title>
+    <link rel="stylesheet" href="static/style.css">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+
+    <header class="glass-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Synergy<span class="highlight">Group</span></a>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services & Projects</a></li>
+                    <li><a href="#people">People & Culture</a></li>
+                    <li><a href="#contact" class="btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay">
+        <div class="mobile-nav-content">
+            <span class="close-menu">&times;</span>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services & Projects</a></li>
+                <li><a href="#people">People & Culture</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="badge">E3 Framework</span>
+                    <h1>Transforming ICT with <span class="text-gradient">Ethics & Excellence</span></h1>
+                    <p class="hero-subtitle">Empowering Accenture Mexico with a framework for responsible, transparent,
+                        and high-performing teams.</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn-primary">Explore Solutions</a>
+                        <a href="#people" class="btn-secondary">Our Culture</a>
+                    </div>
+                </div>
+                <div class="hero-cards">
+                    <div class="glass-card vision-card">
+                        <div class="icon-box"><i class="fas fa-eye"></i></div>
+                        <h3>Vision</h3>
+                        <p>To set the standard for ethical, employable, and excellent ICT operations in Mexico,
+                            fostering innovation and trust.</p>
+                    </div>
+                    <div class="glass-card mission-card">
+                        <div class="icon-box"><i class="fas fa-bullseye"></i></div>
+                        <h3>Mission</h3>
+                        <p>Applying the E3 Framework to solve challenges, ensuring responsible and transparent teams.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="values-banner">
+                <div class="container">
+                    <div class="value-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Ethics First</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-search"></i>
+                        <span>Transparency</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-users"></i>
+                        <span>Diversity</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-star"></i>
+                        <span>Excellence</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services & Projects Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Services & Projects</h2>
+                    <p>Driving ethical and responsible ICT operations through targeted initiatives.</p>
+                </div>
+                <div class="grid-layout">
+                    <!-- Agile Future -->
+                    <article class="project-card">
+                        <div class="card-image agile-img">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Agile Future</h3>
+                            <p class="problem"><strong>Challenge:</strong> Inconsistent Scrum adoption and skipped
+                                retrospectives.</p>
+                            <ul class="solution-list">
+                                <li><i class="fas fa-check"></i> Retrospective Scorecard</li>
+                                <li><i class="fas fa-check"></i> English-only Scrum ceremonies</li>
+                                <li><i class="fas fa-check"></i> Agile Champions</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- CSR -->
+                    <article class="project-card">
+                        <div class="card-image csr-img">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>CSR in Yucatán</h3>
+                            <p class="problem"><strong>Challenge:</strong> Lack of local engagement in CSR initiatives.
+                            </p>
+                            <ul class="solution-list">
+                                <li><i class="fas fa-check"></i> "Yucatán Digital Inclusion" mentorship</li>
+                                <li><i class="fas fa-check"></i> "Impact Hours" for volunteering</li>
+                                <li><i class="fas fa-check"></i> Pro-bono consulting</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Digital Literacy & AI -->
+                    <article class="project-card">
+                        <div class="card-image ai-img">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Digital Literacy & AI</h3>
+                            <p class="problem"><strong>Challenge:</strong> Risk of IP leakage via public GenAI tools.
+                            </p>
+                            <ul class="solution-list">
+                                <li><i class="fas fa-check"></i> Secured internal GenAI platform</li>
+                                <li><i class="fas fa-check"></i> Mandatory AI Literacy training</li>
+                                <li><i class="fas fa-check"></i> English policy workshops</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Ethics & Values -->
+                    <article class="project-card">
+                        <div class="card-image ethics-img">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Ethics & Values</h3>
+                            <p class="problem"><strong>Challenge:</strong> Ethical risks from untrained AI specialists.
+                            </p>
+                            <ul class="solution-list">
+                                <li><i class="fas fa-check"></i> "Data Ethics First" certification</li>
+                                <li><i class="fas fa-check"></i> Internal Ethics Council</li>
+                                <li><i class="fas fa-check"></i> Global privacy workshops (GDPR)</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- People & Culture Section -->
+        <section id="people" class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>People & Culture</h2>
+                    <p>Fostering transparency, compliance, teamwork, and diversity.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-users-cog"></i></div>
+                        <h3>Team Collaboration</h3>
+                        <p>Breaking silos with weekly <strong>Knowledge Huddles</strong> and a <strong>Collaborative
+                                Ownership</strong> model to enhance decision-making.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                        <h3>Conflict Management</h3>
+                        <p>Resolving tensions with <strong>Shared Success Metrics</strong> and mediation training for
+                            team leads.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-file-contract"></i></div>
+                        <h3>Transparency & Compliance</h3>
+                        <p>Ensuring clarity with annual <strong>Compliance Certifications</strong> and a robust
+                            <strong>Whistleblower Protection Program</strong>.
+                        </p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-globe-americas"></i></div>
+                        <h3>Diversity & Inclusion</h3>
+                        <p>Empowering every voice through an inclusive, global-local integrated culture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h4>The Synergy Group</h4>
+                <p>Innovating for a responsible digital future.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Team</h4>
+                <ul>
+                    <li>Francisco Chan Pech</li>
+                    <li>Carlos Helguera Mosqueda</li>
+                    <li>Valeria Paredes Dzib</li>
+                    <li>Pedro Avila Colli</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="mailto:info@synergygroup.com"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Synergy Group. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="static/actions.js"></script>
+    <!-- <script src="{{ url_for('static', filename='actions.js') }}"></script> -->
+</body>
+
+</html>
